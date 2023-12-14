@@ -60,6 +60,9 @@ public class Principal {
 			} while (movPosible != 0);// Si es 0 nos saldemos del bloque de instrucciones del do
 		} // Repetimos las instrucciones desde el primer while si no encontramos el tesoro
 
+		// Pintamos el tablero por última vez
+		jugador.pintaTablero();
+		
 		// Mensaje para cuando encontramos el tesoro
 		System.out.println("¡ENHORABUENA! Ha encontrado el tesoro =D");
 
